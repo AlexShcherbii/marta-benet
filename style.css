@@ -80,6 +80,43 @@ h1 {
     margin: 60px 0 0;
 }
 
+#discover:hover {
+    background-color: rgba(224, 211, 211, 0.575);
+    cursor: pointer;
+}
+
+#discover:active {
+    background-color: rgb(204, 188, 188);
+}
+
+#discover-artifacts {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 0;
+    display: none;
+}
+
+.artifacts-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.artifacts-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.artifacts-row > img {
+    width: 330px;
+    height: 400px;
+}
+
+#discover-artifacts > hr {
+    margin-top: 70px;
+    width: 900px;
+}
+
 .artifacts {
     display: flex;
     justify-content: space-between;
@@ -108,11 +145,22 @@ p {
     margin: 16px auto 0;
 }
 
+#more-info {display: none;}
+
 #more {
     width: 166px;
     height: 23px;
     padding: 1px 25px;
     margin: 36px 0 0;
+}
+
+#more:hover {
+    background-color: rgba(224, 211, 211, 0.575);
+    cursor: pointer;
+}
+
+#more:active {
+    background-color: rgb(204, 188, 188);
 }
 
 #discr {
@@ -157,6 +205,20 @@ p {
     margin: 96px auto 0;
     padding: 5px 25px;
     display: block;
+}
+
+section > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#purchase:hover {
+    background-color: rgba(224, 211, 211, 0.575);
+    cursor: pointer;
+}
+
+#purchase:active {
+    background-color: rgb(204, 188, 188);
 }
 
 h2 {
@@ -233,6 +295,51 @@ h3 {
     display: block;
 }
 
+#contact:hover {
+    background-color: rgba(224, 211, 211, 0.575);
+    cursor: pointer;
+}
+
+#contact:active {
+    background-color: rgb(204, 188, 188);
+}
+
+#contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px auto 0;
+    display: none;
+}
+
+#contacts > a {
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    padding: 5px 25px;
+    border-radius: 9999px;
+}
+
+#contacts > a:hover {
+    background-color: rgba(224, 211, 211, 0.575);
+}
+
+#contacts > a:active {
+    background-color: rgb(204, 188, 188);
+}
+
+#contacts > a > img {
+    width: 20px;
+    height: 20px;
+}
+
+#contacts > a > p {
+    margin: 0 5px 1px;
+    font-size: 16px;
+}
+
 .novelties-nav > h2 {
     max-width: 552px;
     margin: 0;
@@ -242,6 +349,15 @@ h3 {
     width: 48px;
     height: 48px;
     padding: 14px;
+}
+
+#next:hover, #prev:hover {
+    background-color: rgba(224, 211, 211, 0.575);
+    cursor: pointer;
+}
+
+#next:active, #prev:active {
+    background-color: rgb(204, 188, 188);
 }
 
 .selection-novelties {
@@ -260,10 +376,23 @@ h3 {
     margin: 18px 0 0;
 }
 
+#view-all:hover {
+    background-color: rgba(224, 211, 211, 0.575);
+    cursor: pointer;
+}
+
+#view-all:active {
+    background-color: rgb(204, 188, 188);
+}
+
 .novelties {
     display: flex;
     justify-content: space-between;
     margin: 86px auto 0;
+}
+
+.novelty:hover {
+    cursor: pointer;
 }
 
 .novelty > h4 {
@@ -275,6 +404,10 @@ h3 {
 
 .novelty > p {
     margin: 0;
+}
+
+#novelty-block-2 {
+    display: none;
 }
 
 hr {
@@ -320,6 +453,15 @@ hr {
     padding: 5px 25px;
     display: block;
     margin: 25px auto 0;
+}
+
+#none:hover {
+    background-color: rgba(224, 211, 211, 0.575);
+    cursor: pointer;
+}
+
+#none:active {
+    background-color: rgb(204, 188, 188);
 }
 
 footer {
@@ -391,6 +533,24 @@ footer {
     #discover {
         margin: 30px auto 0;
         display: block;
+    }
+    
+    .artifacts-row {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+    
+    .artifacts-row > img {
+        width: 325px;
+        height: 375px;
+        margin: 5px auto;
+        display: block;
+    }
+    
+    #discover-artifacts > hr {
+        margin-top: 70px;
+        width: 300px;
     }
     
     .artifacts {
@@ -489,6 +649,10 @@ footer {
     
     .services-block {
         margin: 25px auto 0;
+    }
+
+    #contacts > a > p {
+        display: none;
     }
 
     
